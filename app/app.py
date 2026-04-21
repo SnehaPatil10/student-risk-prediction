@@ -5,7 +5,6 @@ import numpy as np
 
 # Load model
 model = joblib.load("student_model.pkl")
-
 # Load data
 data = pd.read_csv("data/student_data.csv")
 
